@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashish Gohel - Portfolio</title>
+    <link href="/src/styles/main.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <div id="app" class="container mx-auto px-4 py-8">
+        <header class="text-center mb-12">
+            <h1 class="text-4xl font-bold text-primary mb-4">Ashish Gohel</h1>
+            <p class="text-xl text-gray-600">Software Engineer & Tech Enthusiast</p>
+        </header>
+
+        <main>
+            <section id="about" class="bg-white shadow-md rounded-lg p-8 mb-8">
+                <h2 class="text-2xl font-semibold text-secondary mb-4">About Me</h2>
+                <p class="text-gray-700">Loading about me content...</p>
+            </section>
+
+            <section id="skills" class="bg-white shadow-md rounded-lg p-8 mb-8">
+                <h2 class="text-2xl font-semibold text-secondary mb-4">Skills</h2>
+                <div id="skills-container" class="grid grid-cols-3 gap-4">
+                    <!-- Skills will be dynamically loaded -->
+                </div>
+            </section>
+
+            <section id="projects" class="bg-white shadow-md rounded-lg p-8">
+                <h2 class="text-2xl font-semibold text-secondary mb-4">Projects</h2>
+                <div id="projects-container" class="grid md:grid-cols-2 gap-6">
+                    <!-- Projects will be dynamically loaded -->
+                </div>
+            </section>
+        </main>
+
+        <footer class="text-center mt-12 text-gray-600">
+            <p>&copy; 2025 Ashish Gohel. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>
